@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="DayOfWeekTextView">День недели:</string>
+    <string name="ButtonAddNote">ДОБАВИТЬ ЗАМЕТКУ</string>
+    <string name="_3">3</string>
+    <string name="_2">2</string>
+    <string name="_1">1</string>
+    <string name="NameOfNote">Название заметки</string>
+    <string name="NoteDescription">Введите описание заметки</string>
+    <string name="Warning_fill_fileds">Все поля должны быть заполнены</string>
+
+    <string-array name="DaysOfWeek">
+        <item>Понедельник</item>
+        <item>Вторник</item>
+        <item>Среда</item>
+        <item>Четверг</item>
+        <item>Пятница</item>
+        <item>Суббота</item>
+        <item>Воскресенье</item>
+    </string-array>
+</resources>
