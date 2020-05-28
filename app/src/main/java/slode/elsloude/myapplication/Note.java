@@ -21,6 +21,7 @@ public class Note {
         this.priority = priority;
     }
 
+
     @Ignore
     public Note(String title, String description, int dayOfWeek, int priority) {
         Title = title;
