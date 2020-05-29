@@ -8,24 +8,23 @@ import androidx.room.PrimaryKey;
 public class Note {
     @PrimaryKey(autoGenerate = true)
     private int id;
-    private String Title;
-    private String Description;
+    private String title;
+    private String description;
     private int dayOfWeek;
     private int priority;
 
     public Note (int id, String title, String description, int dayOfWeek, int priority) {
         this.id = id;
-        Title = title;
-        Description = description;
+        this.title = title;
+        this.description = description;
         this.dayOfWeek = dayOfWeek;
         this.priority = priority;
     }
 
-
     @Ignore
     public Note(String title, String description, int dayOfWeek, int priority) {
-        Title = title;
-        Description = description;
+        this.title = title;
+        this.description = description;
         this.dayOfWeek = dayOfWeek;
         this.priority = priority;
     }
@@ -35,11 +34,11 @@ public class Note {
     }
 
     public String getTitle() {
-        return Title;
+        return title;
     }
 
     public String getDescription() {
-        return Description;
+        return description;
     }
 
     public int getDayOfWeek() {
@@ -55,11 +54,11 @@ public class Note {
     }
 
     public void setTitle(String title) {
-        Title = title;
+        title = title;
     }
 
     public void setDescription(String description) {
-        Description = description;
+        description = description;
     }
 
     public void setDayOfWeek(int dayOfWeek) {
