@@ -36,7 +36,6 @@ public class AddNoteActivity extends AppCompatActivity {
     }
 
 
-
     public void onClickAddNote(View view) {
         String title = editTextTitle.getText().toString().trim();
         String description = editTextDescription.getText().toString().trim();
