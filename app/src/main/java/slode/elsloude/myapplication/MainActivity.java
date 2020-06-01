@@ -71,6 +71,7 @@ public class MainActivity extends AppCompatActivity {
         viewModel.deleteNote(note);
     }
 
+
     public void onClickAddNote(View view) {
         Intent intent = new Intent(this, AddNoteActivity.class);
         startActivity(intent);
